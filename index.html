@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Water Filtration PH | Cleaner Water • Healthier Life</title>
+<meta name="description" content="Water Filtration PH — practical water filtration solutions for homes and businesses.">
+<style>
+:root {
+  --navy:#062a63; --blue:#078bdc; --cyan:#28c5f5; --gold:#c9a227;
+  --ink:#10233f; --muted:#5e6d80; --light:#f5f9fd; --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid #e7eef5}
+.nav-inner{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}
+.brand img{width:52px;height:52px;border-radius:50%;object-fit:cover}
+.brand span{font-size:17px}
+.links{display:flex;gap:25px;font-weight:700;font-size:14px}
+.links a:hover{color:var(--blue)}
+.cta{background:linear-gradient(135deg,var(--navy),#0b4da8);color:#fff;padding:12px 20px;border-radius:999px;font-weight:800;box-shadow:0 8px 22px rgba(6,42,99,.2)}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#031d48 0%,#0757ae 58%,#11bde8 100%);color:#fff;padding:92px 0 105px}
+.hero:after{content:"";position:absolute;right:-140px;bottom:-180px;width:520px;height:520px;border:70px solid rgba(255,255,255,.09);border-radius:50%}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:55px;position:relative;z-index:2}
+.eyebrow{display:inline-block;color:#ffe08a;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
+h1{font-size:clamp(42px,6vw,72px);line-height:1.02;letter-spacing:-2px;margin-bottom:20px}
+.hero p{font-size:19px;max-width:650px;color:#eaf6ff;margin-bottom:30px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 23px;border-radius:12px;font-weight:900}
+.btn-gold{background:var(--gold);color:#101010}
+.btn-light{background:#fff;color:var(--navy)}
+.logo-card{background:rgba(255,255,255,.96);padding:28px;border-radius:30px;box-shadow:0 30px 80px rgba(0,0,0,.25);text-align:center}
+.logo-card img{width:min(100%,380px);border-radius:20px}
+section{padding:88px 0}
+.section-head{max-width:720px;margin-bottom:42px}
+.kicker{color:var(--blue);font-weight:900;letter-spacing:1.5px;text-transform:uppercase}
+h2{font-size:clamp(32px,4vw,48px);line-height:1.1;margin:8px 0 15px;color:var(--navy)}
+.section-head p{color:var(--muted);font-size:17px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{padding:30px;border:1px solid #e2ebf3;border-radius:22px;background:#fff;box-shadow:0 12px 35px rgba(10,50,90,.06)}
+.icon{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:#e9f7ff;color:var(--blue);font-size:24px;margin-bottom:18px}
+.card h3{font-size:21px;color:var(--navy);margin-bottom:8px}
+.card p{color:var(--muted)}
+.about{background:var(--light)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.panel{background:#fff;border-radius:24px;padding:34px;border:1px solid #e4edf5}
+.panel h3{color:var(--navy);font-size:25px;margin-bottom:12px}
+.panel p{color:var(--muted)}
+.values{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+.value{padding:18px;border-radius:16px;background:#f7fbff;border-left:4px solid var(--gold)}
+.value b{display:block;color:var(--navy);margin-bottom:3px}
+.product{background:linear-gradient(180deg,#fff,#f4fbff)}
+.product-box{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:center}
+.product-visual{background:#eaf8ff;border-radius:30px;min-height:390px;display:grid;place-items:center;padding:25px}
+.product-visual img{max-width:100%;max-height:360px;border-radius:20px;object-fit:contain}
+.bullets{display:grid;gap:13px;margin:22px 0}
+.bullet{display:flex;gap:11px;align-items:flex-start}
+.check{width:26px;height:26px;border-radius:50%;background:#dff6ff;color:#0077c8;display:grid;place-items:center;font-weight:900;flex:none}
+.contact{background:var(--navy);color:#fff}
+.contact h2{color:#fff}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.contact-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);padding:30px;border-radius:22px}
+.contact-card p{color:#d9ebff}
+footer{background:#031a3b;color:#bcd0e6;padding:25px 0}
+footer .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+.product-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product-card{overflow:hidden;background:#fff;border:1px solid #e1ebf3;border-radius:24px;box-shadow:0 14px 35px rgba(8,47,82,.08);transition:transform .25s ease,box-shadow .25s ease}
+.product-card:hover{transform:translateY(-5px);box-shadow:0 22px 45px rgba(8,47,82,.14)}
+.product-card.featured{grid-column:span 2}
+.product-card img{width:100%;height:260px;display:block;object-fit:cover;background:#f1f6fa}
+.product-card.featured img{height:340px}
+.product-card-body{padding:22px}
+.product-card h3{font-size:22px;color:var(--navy);margin:7px 0 6px}
+.product-card p{color:var(--muted)}
+.tag{display:inline-block;background:#e8f7ff;color:#0877c2;border-radius:999px;padding:5px 10px;font-size:11px;font-weight:900;letter-spacing:.8px}
+.product-note{margin-top:28px;padding:18px 20px;border-left:4px solid var(--gold);border-radius:12px;background:#f7fbff;color:var(--muted)}
+@media(max-width:820px){
+ .links{display:none} .hero-grid,.about-grid,.product-box,.contact-grid{grid-template-columns:1fr}
+ .cards{grid-template-columns:1fr} .product-gallery{grid-template-columns:1fr} .product-card.featured{grid-column:span 1} .product-card img,.product-card.featured img{height:280px} .hero{padding:70px 0 80px} section{padding:65px 0}
+ .logo-card{max-width:520px;margin:auto} .values{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <a class="brand" href="#home"><img src="logo.jpg" alt="Water Filtration PH logo"><span>WATER FILTRATION PH</span></a>
+    <div class="links">
+      <a href="#about">About</a><a href="#mission">Mission & Vision</a><a href="#services">Services</a><a href="#contact">Contact</a>
+    </div>
+    <a class="cta" href="#contact">Get in Touch</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Cleaner Water • Healthier Life</span>
+      <h1>Better water solutions for everyday living.</h1>
+      <p>Water Filtration PH provides practical, reliable, and accessible water filtration solutions for homes, businesses, and communities.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#services">Explore Solutions</a>
+        <a class="btn btn-light" href="#contact">Contact Us</a>
+      </div>
+    </div>
+    <div class="logo-card"><img src="logo.jpg" alt="Water Filtration PH"></div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">About Us</span>
+      <h2>Built around quality, service, and practical solutions.</h2>
+      <p>We focus on modern water filtration systems and dependable customer support designed around everyday water needs.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">💧</div><h3>Water Solutions</h3><p>Filtration solutions designed for convenient everyday use in homes and businesses.</p></div>
+      <div class="card"><div class="icon">🛠</div><h3>Professional Service</h3><p>We aim to provide clear guidance, professional installation, and responsive after-sales support.</p></div>
+      <div class="card"><div class="icon">🤝</div><h3>Customer Focus</h3><p>We build long-term relationships through honest service and solutions that fit customer needs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="mission">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Our Direction</span>
+      <h2>Mission & Vision</h2>
+    </div>
+    <div class="about-grid">
+      <div class="panel">
+        <h3>Our Mission</h3>
+        <p>Our mission is to provide <b>reliable, accessible, and quality water filtration solutions</b> that help families and businesses enjoy cleaner and better-tasting drinking water.</p>
+        <p style="margin-top:14px">We are committed to delivering quality products, professional service, and dependable customer support while continuously improving our solutions.</p>
+      </div>
+      <div class="panel">
+        <h3>Our Vision</h3>
+        <p>Our vision is to become a <b>trusted water filtration solutions provider in the Philippines</b>, recognized for quality products, professional service, innovation, and customer satisfaction.</p>
+        <p style="margin-top:14px">We envision a future where more Filipino homes and businesses have convenient access to reliable water filtration solutions.</p>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:28px">
+      <h3>Our Core Values</h3>
+      <div class="values">
+        <div class="value"><b>Quality</b>We strive for high standards in products and service.</div>
+        <div class="value"><b>Integrity</b>We value honesty and responsible business practices.</div>
+        <div class="value"><b>Innovation</b>We seek better and more practical filtration solutions.</div>
+        <div class="value"><b>Reliability</b>We aim to provide dependable customer support.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="product">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Our Products</span>
+      <h2>Water Filtration PH Product Collection</h2>
+      <p>Explore the purifier system, complete set, packaging, and real installation examples.</p>
+    </div>
+
+    <div class="product-gallery">
+      <article class="product-card featured">
+        <img src="product-front.jpg" alt="Water Filtration PH purifier front view">
+        <div class="product-card-body">
+          <span class="tag">6/7 STAGES UF</span>
+          <h3>Wall-Mounted Water Purifier</h3>
+          <p>Modern purifier housing with visible filter cartridges.</p>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="product-set.jpg" alt="Water purifier complete set with box and accessories">
+        <div class="product-card-body">
+          <span class="tag">COMPLETE SET</span>
+          <h3>Purifier + Accessories</h3>
+          <p>Product unit, packaging, tubing, faucet, fittings and manual.</p>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="product-packaging.jpg" alt="Water purifier packaging">
+        <div class="product-card-body">
+          <span class="tag">PACKAGING</span>
+          <h3>Product Packaging</h3>
+          <p>Original purifier packaging and presentation.</p>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="product-back.jpg" alt="Water purifier rear view">
+        <div class="product-card-body">
+          <span class="tag">BACK VIEW</span>
+          <h3>Wall-Mount Design</h3>
+          <p>Rear panel showing the wall-mount configuration.</p>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="product-installation-1.jpg" alt="Installed water purifier beside kitchen sink">
+        <div class="product-card-body">
+          <span class="tag">INSTALLATION</span>
+          <h3>Kitchen Installation</h3>
+          <p>Example of the purifier installed beside a kitchen sink.</p>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="product-installation-2.jpg" alt="Installed water purifier with dedicated faucet">
+        <div class="product-card-body">
+          <span class="tag">INSTALLATION</span>
+          <h3>Installed With Faucet</h3>
+          <p>Example installation with dedicated filtration faucet and tubing.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="product-note">
+      <strong>Product information:</strong> Filter stages, cartridge specifications, warranty, pricing and installation inclusions should be confirmed with Water Filtration PH before publishing final commercial details.
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <span class="kicker" style="color:#72d8ff">Contact Us</span>
+        <h2>Let's discuss your water filtration needs.</h2>
+        <p style="color:#d9ebff;font-size:17px">Send us a message to learn more about our available products and services.</p>
+      </div>
+      <div class="contact-card">
+        <h3>WATER FILTRATION PH</h3>
+        <p style="margin:10px 0 22px">For product inquiries, installation, partnerships, and business proposals.</p>
+        <a class="btn btn-gold" href="https://m.me/" target="_blank" rel="noopener">Message Us on Facebook</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <span>© 2026 Water Filtration PH. All rights reserved.</span>
+    <span>Cleaner Water • Healthier Life</span>
+  </div>
+</footer>
+</body>
+</html>

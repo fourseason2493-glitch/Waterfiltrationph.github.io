@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fourseason2493-glitch.github.io/Waterfiltrationph.github.io/sitemap.xml
